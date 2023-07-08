@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    width: 120px;
+}
+.container{
+    background-color:rgb(32, 32, 32);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+.item{
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.list{
+    display: flex;
+    padding: 10px
+}
+.item:hover{
+    color: blue;
+}
+
